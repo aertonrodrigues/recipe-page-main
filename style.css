@@ -46,7 +46,7 @@ body {
 }
 
 .img {
-  /* overflox esconde tudo que passar do container */
+  /* overflow esconde tudo que passar do container */
   overflow: hidden;
   border-radius: 1rem;
   width: 100%;
@@ -101,7 +101,6 @@ h2 {
   font-family: "Young Serif", serif;
   font-weight: 400;
   margin-bottom: 2rem;
-
 }
 
 .ingredients {
@@ -134,20 +133,12 @@ h2 {
   padding-left: 1.5rem;
   padding-bottom: 1rem;
   margin-left: 5rem;
-
-}
-
-.instructions-list li strong {
-  /* padding-left: 1.25rem; */
-
 }
 
 .instructions-list li::marker {
   color: var(--dark--raspberry);
   font-family: sans-serif;
   font-weight: 600;
-
-
 }
 
 .nutrition p {
@@ -169,7 +160,6 @@ table tr td {
 /* separando a última linha separando e tirando a borda */
 table tr:last-child td {
   border: none;
-
 }
 
 table tr td:first-child {
